@@ -45,7 +45,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(202, 32);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Rok Urodzenia";
+            this.label1.Text = "Start date.";
             // 
             // label2
             // 
@@ -58,7 +58,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(250, 32);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Wiek w sekundach";
+            this.label2.Text = "Elpsed seconds.";
             // 
             // seconds_textBox
             // 
@@ -70,7 +70,6 @@
             this.seconds_textBox.Name = "seconds_textBox";
             this.seconds_textBox.Size = new System.Drawing.Size(413, 38);
             this.seconds_textBox.TabIndex = 3;
-
             // 
             // dateTimePicker1
             // 
@@ -87,7 +86,6 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(196, 38);
             this.dateTimePicker1.TabIndex = 4;
             this.dateTimePicker1.Value = new System.DateTime(2017, 7, 6, 0, 0, 0, 0);
-
             this.dateTimePicker1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.date_enter);
             // 
             // Form1
@@ -102,7 +100,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Age";
-
             this.ResumeLayout(false);
             this.PerformLayout();
 

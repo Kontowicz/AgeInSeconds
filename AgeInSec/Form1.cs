@@ -37,19 +37,12 @@ namespace AgeInSec
                     result = MessageBox.Show(message, caption, buttons);
 
                     if (result == System.Windows.Forms.DialogResult.No)
-                    {
-                        // Closes the parent form.
                         this.Close();
-                    }
                     if (result == System.Windows.Forms.DialogResult.Yes)
-                    {
                         seconds_textBox.Text = "";
-                    }
                 }
                 else
-                {
                     seconds_textBox.Text = Math.Round(a.TotalSeconds, 0).ToString();
-                }
             }
         }
     }
